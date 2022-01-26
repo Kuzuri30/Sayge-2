@@ -1,0 +1,490 @@
+@media (min-width:1650px) {
+
+    /* Navbar */
+    .logo img {
+        width: 100%;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 28px;
+    }
+
+    .nav-item .btn {
+        font-size: 22px;
+    }
+
+    /* Section1 */
+    .paraInit h1 {
+        font-size: 44em;
+    }
+
+    .initOne {
+        font-size: 19em;
+    }
+
+    .initTwo {
+        font-size: 15em;
+    }
+
+    .paraInit button {
+        font-size: 13em;
+        width: 307px;
+        height: 80px;
+        margin-top: 40px;
+    }
+
+    /* Section2 */
+    .card-title {
+        font-size: 25em;
+    }
+
+    .orcardPara1 {
+        font-size: 14em;
+    }
+
+    .card-text {
+        font-size: 12em;
+    }
+
+    /* Section3 */
+    .servicecard-body {
+        /* margin-left: auto; */
+        margin-right: auto;
+    }
+
+    .servicecardImg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .servicecardImg img {
+        width: 110%;
+    }
+
+    .servicecard-body h5 {
+        font-size: 26em;
+    }
+
+    .servicecard-text {
+        font-size: 20em;
+    }
+
+    .content h4 {
+        font-size: 18em;
+    }
+
+    .skills {
+        font-size: 14em;
+    }
+
+    .servicecard-body .btn {
+        width: 257px;
+        height: 69px;
+        font-size: 11em;
+    }
+
+    /* Hand through phone */
+    .handThruph .row {
+        flex-wrap: nowrap;
+    }
+
+    .ache1 {
+        font-size: 19em;
+    }
+
+    .headAche h5, .ache2 {
+        font-size: 11em;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    /* Section4 */
+
+    .blackCard {
+        height: 60vh;
+    }
+
+    .blackCard-body h5 {
+        font-size: 15em;
+    }
+
+    .designation, .blackCard-text {
+        font-size: 12em;
+    }
+
+    /* Last Section */
+    .lastSection h5 {
+        font-size: 28em;
+    }
+
+    .lastSection h6 {
+        font-size: 16em;
+    }
+
+    .lastSection .btn {
+        width: 300px;
+        height: 74px;
+        font-size: 15em;
+    }
+
+    /* Footer */
+    .links a {
+        font-size: 28px;
+    }
+    .socials {
+        font-size: 22em;
+    }
+
+    .fLogo h6, .copyRight {
+        font-size: 10em;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px) {
+
+    body {
+        padding: 48px 96px 0px 96px;
+    }
+
+    /* Section1 */
+    .paraInit h1 {
+        font-size: 32em;
+    }
+
+    /* Section2 */
+    .card-body {
+        margin-left: 0%;
+    }
+
+    .orcardPara1 {
+        font-size: 9em;
+    }
+
+    .pc {
+        display: block;
+    }
+
+    /* Section3 */
+    .servicecard {
+        flex-direction: column;
+    }
+
+    .servicecardImg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .servicecardImg img {
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 16%;
+    }
+
+    .servicecard-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Hand through phone */
+    .handThruph {
+        margin-top: 136px;
+    }
+
+    .handThruph img {
+        width: 80%;
+    }
+
+    .headAche h5, .ache2 {
+        font-size: 8em;
+    }
+
+    .handThruph .row {
+        flex-wrap: nowrap;
+    }
+
+    .headAche {
+        margin-left: 0%;
+    }
+
+    /* Section4 */
+    .blackCard {
+        height: auto;
+    }
+
+    .designation, .blackCard-text {
+        font-size: 8em;
+    }
+
+    /* Footer */
+    .links a {
+        font-size: 20px;
+    }
+    .socials {
+        font-size: 16em;
+    }
+}
+
+@media (max-width:991px) {
+
+    body {
+        padding: 32px 32px 0px 32px;
+    }
+
+    /* Navbar */
+
+    .logo img {
+        width: 60%;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .btn{
+        font-size: 13px;
+    }
+
+    /* Section1 */
+    .paraInit {
+        margin-top: 9em;
+    }
+
+    .paraInit h1 {
+        font-size: 21em;
+    }
+
+    .initOne {
+        font-size: 9em;
+    }
+
+    .initTwo {
+        font-size: 7em;
+    }
+
+    .paraInit button {
+        padding: 15px;
+        margin-top: 16px;
+        font-size: 8em;
+    }
+
+    /* Section2 */
+    .section2 .row {
+        flex-wrap: wrap;
+    }
+
+    .card-title {
+        font-size: 13em;
+    }
+
+    .card-text {
+        font-size: 8em;
+    }
+
+    .card-body {
+        margin-left: 0;
+    }
+
+    #orangeCard1 {
+        margin-bottom: 36px;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    /* Traction */
+    .traction h1 {
+        font-size: 14em;
+    }
+
+    .tractPara {
+        font-size: 9em;
+    }
+
+    .phone {
+        display: block;
+    }
+
+    /* Section3 */
+    .servicecard {
+        flex-direction: column;
+    }
+
+    .servicecard-body {
+        margin-left: 12em;
+        margin-right: 18em;
+    }
+
+    .servicecard-body h5 {
+        font-size: 15em;
+    }
+
+    .servicecard-text {
+        font-size: 10em;
+    }
+
+    .content h4 {
+        font-size: 10em;
+    }
+
+    .skills {
+        font-size: 8em;
+    }
+
+    .servicecard-body .btn {
+        margin-bottom: 36px;
+        width: 178px;
+        height: 50px;
+        font-size: 7em;
+    }
+
+    .servicecardImg img {
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    /* Hand through phone */
+
+    .handThruph {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .handThruph .row {
+        flex-wrap: wrap;
+    }
+
+    .handThruph img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .headAche {
+        margin-left: 0%;
+    }
+
+    .headAche h5, .ache2 {
+        font-size: 9em;
+    }
+
+    /* Section4 */
+    .section4 h5 {
+        font-size: 9em;
+    }
+
+    .section4 .row {
+        justify-content: center;
+    }
+
+    #workingProcess {
+        font-size: 18em;
+    }
+
+    .designation, .blackCard-text {
+        font-size: 7em;
+    }
+
+    .blackCard {
+        width: 60vw;
+        height: auto;
+    }
+
+    #two, #four {
+        margin-top: 22em;
+    }
+
+    @media (min-width:768px) and (max-width:991px) {
+        /* Section1 */
+        .paraInit h1 {
+            font-size: 27em;
+        }
+        .initOne {
+            font-size: 13em;
+        }
+        .initTwo {
+            font-size: 11em;
+        }
+
+        .paraInit button {
+            font-size: 11em;
+        }
+
+        /* Section2 */
+        .card-title {
+            font-size: 18em;
+        }
+        .card-text {
+            font-size: 12em;
+        }
+        .orcardPara1 {
+            font-size: 12em;
+        }
+
+        /* Traction */
+        .traction h1 {
+            font-size: 18em;
+        }
+        .tractPara {
+            font-size: 13em;
+        }
+        /* Section4 */
+        .blackCard {
+            width: 36vw;
+            height: auto;
+        }
+
+        #two, #four {
+            margin-top: 0em;
+        }
+
+        .section4 .row {
+            justify-content: space-evenly;
+        }
+    }
+
+    /* Last Section */
+    .lastSection h5 {
+        font-size: 16em;
+    }
+
+    .lastSection h6 {
+        font-size: 8em;
+    }
+
+    .lastSection .btn {
+        width: 174px;
+        height: 52px;
+        padding: 14px;
+        font-size: 8em;
+    }
+
+    /* Footer */
+
+    .links{
+        flex-wrap: wrap;
+    }
+    .links a{
+        font-size: 18px;
+    }
+
+    .socials {
+        font-size: 10em;
+    }
+
+    .socials a {
+        margin: 0px 16px;
+    }
+    
+    .fLogo h6 {
+        font-size: 6em;
+    }
+    .copyRight {
+        font-size: 6em;
+    }
+
+}
