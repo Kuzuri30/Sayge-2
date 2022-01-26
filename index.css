@@ -9,1193 +9,369 @@ body {
 
 /* Navbar CSS */
 
-
-
-.navbar-toggler {
-    border: none;
+.logo img {
+    width: 70%;
 }
 
-
-.navbar-brand img {
-    width: 75%;
-    height: auto;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fcfcfd;
+    margin-left: 46px;
+    font-size: 20px;
 }
 
-.contactButton {
-    padding: 0%;
-    border-radius: 15px;
-}
-
-.collapse {
-    justify-content: flex-end;
-}
-
-.collapse ul {
-    align-items: center;
-}
-
-.collapse ul li {
-    margin: 12px;
-    transition: 0.6s;
-}
-
-.show ul li {
-    transition: 0.6s;
-}
-
-.navbar-dark .navbar-nav .nav-link, .content h1, #para3, .card-title, .cardPara1, #tractPara, #mundanePara, .headache h5, .headachePara2, .headachePara1, .work h5, .workPara, .workCard-title, .designation, .workCard-text, .btn, .usPara, .us h4, .footerPara, .footerPara a, .footerPara1, .finalPara, .socials i {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: #fcfcfd;
 }
 
+.navbar-nav {
+    align-items: center;
+}
+
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: unset;
+}
+
 .btn {
+    color: #fcfcfd;
     background: #FE6D01;
+    border-radius: 15px;
 }
 
-/* - */
+/* Section1 */
 
-/* First Heading */
-.content {
-    display: flex;
-
+.section1 {
+    font-size: 2px;
 }
 
-.content h1 {
-    font-size: 72px;
+.section1 img {
+    width: 100%;
 }
 
-/* .saly img{
-    width: 47rem;
-} */
-
-.simPara {
-    /* margin-left: 96px; */
-    margin-top: 3%;
+.paraInit {
+    margin-top: 75px;
 }
 
-#para2 {
-    color: #FFFFFF;
+.paraInit h1 {
+    color: #fcfcfd;
+    font-size: 36em;
 }
 
-#bookButton {
-    margin-top: 10%;
+.initOne {
+    font-size: 15em;
+    color: #ffffff;
+}
+
+.initTwo {
+    font-size: 10em;
+    color: #fcfcfd;
+}
+
+.paraInit button {
     box-shadow: 4px 2px 32px rgba(255, 144, 61, 0.75);
     backdrop-filter: blur(61px);
-    border-radius: 15px;
-    height: 72px;
-    width: 285px;
+    padding: 20px;
+    margin-top: 16px;
+    font-size: 12em;
 }
 
-/* - */
+/* Section2 */
 
-/* Orange Cards */
+.section2 .row {
+    flex-wrap: nowrap;
+}
+
+.section2 {
+    font-size: 2px;
+    margin-top: 110px;
+}
+
+.section2 .card {
+    background: #FFAF73;
+}
+
+#orangeCard1 {
+    margin-right: 26px;
+}
+
+.card img {
+    width: 54%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    font-size: 18em;
+    color: #fcfcfd;
+}
+
 .card-body {
     margin-left: 36px;
     margin-top: 34px;
 }
 
-.card {
-    background: #FFAF73;
-    width: 611px;
+.orcardPara1 {
+    font-size: 10em;
+    color: #fcfcfd;
 }
 
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-left: 23px; */
+.card-text {
+    font-size: 9em;
 }
 
-#cardbtn1, #cardbtn2 {
-    margin-bottom: 38px;
-    margin-top: 16px;
-    width: 157px;
+.section2 .btn {
+    width: 133px;
     height: 62px;
-    padding: 16px 20px;
+    border-radius: 10px;
+    padding: 16px 0px;
+    font-size: 19px;
+    margin-top: 16px;
+    margin-bottom: 38px;
 }
 
-.card-img-top {
-    margin-left: 103px;
-    width: 406px;
+.pc {
+    display: block;
 }
 
-.card1, .card2 {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.card-text, .cardLastpara {
-    color: #121212;
-    font-size: 18px;
-}
-
-/* - */
-
-/* White Card */
-
-.infoServices {
-    display: flex;
-    flex-direction: column;
-}
+/* Traction */
 
 .traction {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 136px;
+    font-size: 2px;
     text-align: center;
+}
+
+.traction h1 {
+    color: #fcfcfd;
+    font-size: 24em;
 }
 
 .orangeSpan {
-    color: #FE6D01;
+    color: #FE6D01
 }
 
-.serviceCard {
-    width: 1248px;
-    height: 1000px;
-    background: #F2EDE8;
-    border-radius: 15px;
-    box-shadow: 4px 2px 32px #F2EDE8;
-    backdrop-filter: blur(61px);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 64px;
-    display: flex;
+.tractPara {
+    color: #fcfcfd;
+    font-size: 15em;
 }
 
-#serviceButton {
-    width: 234px;
-    height: 62px;
-    padding: 16px 20px;
-    border-radius: 10px;
-    font-size: 19px;
-    margin-top: 32px;
-    margin-bottom: 66px;
-    margin-right: 380px;
-}
-
-.serviceCard-img-top {
-    margin-top: 211px;
-    margin-bottom: 211px;
-    margin-left: 36px;
-}
-
-.serviceCard-title {
-    margin-top: 86px;
-}
-
-#serviceSubtitle {
-    margin-top: 6px;
-}
-
-.serviceHead, #serviceSubtitle, .serviceCard-title, .servicePara {
-    margin-right: 116px;
-}
-
-/* - */
-
-/* Hand through phone img and para */
-
-.container {
-    display: flex;
-}
-
-.headache {
-    margin-top: 194px;
-    margin-left: 113px;
-}
-
-.handThrufon {
-    margin-left: 59px;
-    margin-top: 136px;
-}
-
-/* - */
-
-/* Black cards */
-
-.workCard {
-    width: 443px;
-    height: 400px;
-    background: #24292E;
-    margin-bottom: 64px;
-    margin-left: auto;
-    margin-right: auto;
-    /*syntax for box-shadow: horizontal offset vertical offset blur spread*/
-    box-shadow: #FCFCFD 2px 2px 16px;
-    border-radius: 15px;
-}
-
-.work h5 {
-    margin-top: 100px;
-    text-align: center;
-}
-
-.workPara {
-    text-align: center;
-    margin-bottom: 45px;
-}
-
-.workCards {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* #workCard1, #workCard3 {
-    margin-left: 274px;
-    margin-right: 86px;
-} */
-
-.workbtn {
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    padding: 14px;
-    margin-left: 108px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    margin-top: 83px;
-}
-
-.workCard-title {
-    margin-top: 12px;
-    text-align: center;
-}
-
-.designation, .workCard-text {
-    font-size: 18px;
-    text-align: center;
-}
-
-.workCard-text {
-    margin-right: 33px;
-    margin-left: 34px;
-}
-
-.us h4, .usPara {
-    text-align: center;
-}
-
-.us h4 {
-    margin-top: 46px;
-}
-
-.usBtn {
-    background: #FE6D01;
-    box-shadow: 4px 2px 32px rgba(255, 144, 61, 0.75);
-    backdrop-filter: blur(61px);
-    width: 285px;
-    height: 64px;
-    padding: 12px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 24px;
-}
-
-.us {
-    padding: 12px;
-}
-
-/* - */
-
-/* Selectors with common font sizes */
-
-#para3, .cardPara1, .servicePara, .footerPara1, .finalPara {
-    font-size: 20px;
-}
-
-.headache h5, .headachePara2, .workPara, .workCard-title, #bookButton, .usPara, .usBtn {
-    font-size: 24px;
-}
-
-#mundanePara, #para2, .serviceHead {
-    font-size: 30px;
-}
-
-.card-title, .workbtn, #serviceSubtitle {
-    font-size: 36px;
-}
-
-#tractPara, .headachePara1, .serviceCard-title, .work h5, .us h4 {
-    font-size: 48px;
-}
-
-/* - */
-
-/* Footer */
-
-footer {
-    width: 1248px;
-    height: 400px;
-    background: #24292E;
-    border-radius: 15px 15px 0px 0px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 135px;
-}
-
-.foot {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.footerPara {
-    padding: 36px;
-}
-
-.footerPara a {
-    text-decoration: none;
-}
-
-#footerLogo {
-    margin-top: 36px;
-    margin-left: 36px;
-}
-
-.footerPara1 {
-    padding: 36px;
-    padding-top: 8px;
-}
-
-.finalPara {
-    text-align: center;
-}
-
-.socials {
-    margin-top: -22px;
-}
-
-.socials i {
-    margin-right: 24px;
-}
-
-.fa-facebook {
-    margin-left: 36px;
-}
-
-/* - */
-
-/* line breaker br */
-.br {
+.phone {
     display: none;
 }
 
-/* - */
+/* Section3 */
 
-
-/* Media Queries */
-
-@media (min-width:320px) and (max-width:767px) {
-
-    body {
-        padding: 32px 32px 0px 32px;
-    }
-
-    .navbar-brand img {
-        width: 89px;
-    }
-
-    /* - */
-
-    .saly {
-        margin-bottom: 36px;
-    }
-
-    .saly img {
-        width: 277px;
-    }
-
-    .content, .saly img, .card1, .card2, .card-img-top, .handThrufon, .headache {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .content h1 {
-        font-size: 48px;
-    }
-
-
-
-    #para2, .headachePara2, .workCard-title, .workPara {
-        font-size: 18px;
-    }
-
-    #para3, #cardbtn1, #cardbtn2, .designation {
-        font-size: 14px;
-    }
-
-    #para2, #para3 {
-        margin-right: 32px;
-    }
-
-    #bookButton {
-        height: 56px;
-        width: 197px;
-    }
-
-    /* Orange Cards */
-
-    .card {
-        width: 257px;
-        height: auto;
-    }
-
-    .cards {
-        margin-left: auto;
-    }
-
-    .card1 {
-        margin-bottom: 36px;
-    }
-
-    .card-img-top {
-        width: 206px;
-    }
-
-    #cardbtn1, #cardbtn2 {
-        margin-bottom: 24px;
-        width: 105px;
-        height: 38px;
-        padding: 7px;
-    }
-
-    .card-title {
-        font-size: 22px;
-    }
-
-    .cardPara1 {
-        font-size: 13px;
-    }
-
-    .card-text, .cardLastpara, .servicePara {
-        font-size: 10px;
-    }
-
-    .card-body {
-        margin-left: 24px;
-        margin-right: 34px;
-        margin-top: 16px;
-        padding: 0%;
-    }
-
-    /* - */
-
-    /* White Card */
-    #mundanePara {
-        font-size: 16px;
-    }
-
-    .serviceHead, #serviceSubtitle, .serviceCard-title, .servicePara {
-        margin: 0px;
-        text-align: left;
-        margin-left: 15px;
-    }
-
-    #serviceSubtitle {
-        margin-left: 1.5rem;
-        margin-top: 6px;
-    }
-
-    .servicePara {
-        margin-top: 12px;
-    }
-
-    #serviceSubtitle, .serviceHead {
-        font-size: 16px;
-    }
-
-    .serviceCard {
-        flex-direction: column;
-        width: 257px;
-        height: 800px;
-    }
-
-    .serviceCard-img-top {
-        width: 208px;
-        margin-top: 16px;
-        margin-bottom: 0px;
-        margin-left: 36px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    #serviceButton {
-        width: 156px;
-        height: 43px;
-        padding: 13px 20px;
-        font-size: 11px;
-        margin: 0%;
-        margin-top: 26px;
-        margin-left: 24px;
-    }
-
-    .serviceCard-title {
-        margin-top: 52px;
-        font-size: 24px;
-    }
-
-    /* - */
-
-    /* Hand through phone and black cards */
-    .work h5 {
-        font-size: 37px;
-    }
-
-    #tractPara {
-        font-size: 27px;
-    }
-
-    .traction {
-        margin-top: 80px;
-    }
-
-    .headachePara1 {
-        font-size: 28px;
-    }
-
-    .headache h5 {
-        font-size: 17px;
-    }
-
-
-
-    .container {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .handThrufon {
-        margin-top: 56px;
-        margin-bottom: 6px;
-    }
-
-    .handThrufon img {
-        width: 236px;
-    }
-
-    .headache {
-        margin-top: 6px;
-        padding: 7px;
-    }
-
-    .work {
-        padding: 7px;
-    }
-
-    .work h5 {
-        margin: 0%;
-        margin-top: 80px;
-        text-align: center;
-    }
-
-    .workPara {
-        margin: 0%;
-        margin-top: 6px;
-        text-align: center;
-        margin-bottom: 26px;
-    }
-
-    .workCard {
-        width: 267px;
-        height: 320px;
-        margin-bottom: 36px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #workCard1, #workCard3 {
-        margin: 0%;
-        margin-bottom: 36px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .workbtn {
-        width: 65px;
-        height: 65px;
-        font-size: 28px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
-    }
-
-    .workCard-text, #bookButton {
-        font-size: 16px;
-    }
-
-    .us h4 {
-        font-size: 36px;
-        margin-top: 100px;
-    }
-
-    .usPara {
-        font-size: 20px;
-        margin: 0%;
-    }
-
-    .usBtn {
-        padding: 4px;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        font-size: 20px;
-        width: 200px;
-        height: 40px;
-    }
-
-    /*  */
-
-    /* Footer */
-
-    footer {
-        width: auto;
-        height: 400px;
-        margin-top: 100px;
-    }
-
-    #footerLogo {
-        width: 110px;
-        margin-top: 36px;
-        margin-left: 36px;
-    }
-
-    .socials {
-        display: flex;
-    }
-
-    .socials a {
-        font-size: 10px;
-    }
-
-    .finalPara,
-    .footerPara1 {
-        font-size: 11px;
-    }
-
-    .br {
-        display: block;
-    }
-
-    .default {
-        display: none;
-    }
-
+.section3 {
+    font-size: 2px;
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
-
-    body {
-        padding: 32px 32px 0px 32px;
-    }
-
-    .content{
-        flex-direction:column ;
-    }
-
-    .content h1 {
-        font-size: 72px;
-    }
-
-    .saly {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 24px;
-    }
-
-    .saly img {
-        width: 600px;
-        height: auto;
-    }
-
-    #para3, .cardPara1,.footerPara1, .finalPara {
-        font-size: 22px;
-    }
-
-     #para2 {
-        font-size: 38px;
-    }
-
-    .card {
-        width: 500px;
-    }
-
-    .card-img-top {
-        width: 306px;
-    }
-
-    .card1 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 64px;
-        margin-bottom: 36px;
-    }
-
-    .card2 {
-
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    .card-text {
-        font-size: 17px;
-    }
-
-    #tractPara, .serviceCard-title {
-        font-size: 40px;
-    }
-
-    #mundanePara, .serviceHead {
-        font-size: 23px;
-        text-align: center;
-    }
-
-    .serviceCard-img-top {
-        width: 340px;
-        margin-left: auto;
-        margin-top: 16px;
-        margin-right: auto;
-        display: block;
-        margin-bottom: auto;
-    }
-
-    .serviceCard {
-        flex-direction: column;
-        width: 500px;
-        height: auto;
-    }
-
-    #serviceSubtitle {
-        font-size: 26px;
-        margin-top: 6px;
-    }
-
-    .serviceHead, #serviceSubtitle, .serviceCard-title, .servicePara {
-        margin-right: 0px;
-        text-align: left;
-        margin-left: 32px;
-    }
-
-    .servicePara {
-        font-size: 17px;
-    }
-
-    #serviceButton {
-        margin-top: 26px;
-        margin-bottom: 36px;
-        margin-left: 32px;
-    }
-
-    #serviceSubtitle {
-        margin-left: 24px;
-    }
-
-    .container {
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .handThrufon {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 56px;
-        margin-bottom: 6px;
-    }
-
-    .headache {
-        margin-top: 6px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .work h5 {
-        margin: 0%;
-        text-align: center;
-        margin-top: 136px;
-    }
-
-    .workPara {
-        margin: 0%;
-        text-align: center;
-        margin-top: 12px;
-    }
-
-    .workCard, #workCard1, #workCard3 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .workCards {
-        margin-top: 45px;
-    }
-
-    .usBtn {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    footer {
-        width: auto;
-        height: 460px;
-    }
-
-    .br {
-        display: block;
-    }
-
-    .default {
-        display: none;
-    }
-
+.servicecard {
+    display: flex;
+    margin-top: 32em;
+    background: #F2EDE8;
+    box-shadow: 4px 2px 32px #F2EDE8;
+    backdrop-filter: blur(61px);
+    border-radius: 15px;
 }
 
-
-@media (min-width: 1024px) and (max-width:1439px) {
-    .content h1 {
-        font-size: 54px;
-    }
-
-    .saly img{
-        width: 401px;
-    }
-
-    #mundanePara, #para2 {
-        font-size: 24px;
-    }
-
-    #bookButton{
-        width: 210px;
-        height: 50px
-    }
-    
-    .cards{
-        margin-top: 136px;
-    }
-    .card1 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 36px;
-    }
-
-    .card2 {
-
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    .card-img-top {
-        width: 310px;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 16px;
-        margin-bottom: 15px;
-    }
-
-    .serviceCard {
-        flex-direction: column;
-        width: 611px;
-        height: auto;
-    }
-
-    .serviceCard-title {
-        font-size: 36px;
-        margin: 0;
-    }
-
-    #serviceSubtitle, #bookButton, .card-text, .cardLastpara,.servicePara {
-        font-size: 18px;
-    }
-
-     #para3 {
-        font-size: 14px;
-    }
-
-    .serviceHead{
-        font-size: 22px;
-    }
-
-    .serviceHead, #serviceSubtitle, .serviceCard-title, .servicePara {
-        text-align: left;
-        margin-left: 39px;
-    }
-
-    #mundanePara {
-        font-size: 20px;
-        text-align: center;
-    }
-
-    #serviceSubtitle{
-        font-size: 26px;
-    }
-
-    #serviceButton {
-        margin-top: 26px;
-        margin-bottom: 36px;
-        margin-left: 39px;
-    }
-
-    .serviceCard-img-top {
-        margin-top: 12px;
-        margin-bottom: 16px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 378px;
-    }
-
-    .container {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .handThrufon {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 6px;
-        margin-top: 56px;
-    }
-
-    .headache {
-        margin-top: 6px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .work h5, .workPara {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .workPara {
-        margin-bottom: 45px;
-    }
-
-    .workCard, #workCard1, #workCard3, .usBtn {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    .workCard {
-        width: 419px;
-    }
-
-    footer {
-        width: auto;
-        height: 400px;
-    }
-
+.servicecardImg img {
+    width: 85%;
+    margin-top: 50%;
 }
 
-@media (min-width:1600px) and (max-width:2559px){
-    .navbar-brand img {
-        width: 100%;
-    }
-
-    .nav-link{
-        font-size: 26px;
-    }
-
-    #contactButton{
-        font-size: 21px;
-    }
-
-    .content h1 {
-        font-size: 105px;
-    }
-    
-    #para2{
-        font-size: 45px;
-    }
-
-    #para3{
-        font-size: 28px;
-    }
-    
+.servicecard-body {
+    margin-top: 43em;
 }
 
-@media (min-width:2560px) {
-    .navbar-brand img {
-        width: 130%;
-    }
-
-    .nav-link {
-        font-size: 35px;
-        margin: 30px;
-    }
-
-    #contactButton {
-        width: 252px;
-        height: 94px;
-        font-size: 35px;
-        border-radius: 15px;
-    }
-
-    .content h1 {
-        font-size: 130px;
-    }
-
-    #para2 {
-        font-size: 45px;
-    }
-
-    #salyImg {
-        width: 1080px;
-    }
-
-    #bookButton {
-        height: 88px;
-        width: 368px;
-    }
-
-    .card {
-        width: 1080px;
-    }
-
-    .card-img-top {
-        margin-left: auto;
-        margin-right: auto;
-        width: 706px;
-    }
-
-    .card-title {
-        font-size: 66px;
-    }
-
-    .cardPara1, #mundanePara, .workPara, .usPara, .usBtn {
-        font-size: 40px;
-    }
-
-    #cardbtn1, #cardbtn2 {
-        width: 357px;
-        height: 82px;
-        font-size: 30px;
-    }
-
-    #tractPara, .work h5, .us h4 {
-        font-size: 68px;
-    }
-
-    .serviceCard {
-        width: 1900px;
-    }
-
-    .serviceCard-body {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .serviceCard-img-top {
-        width: 778px;
-        margin: 0;
-        margin-top: 135px;
-        margin-left: 56px;
-    }
-
-    #serviceButton {
-        width: 280px;
-        height: 86px;
-        padding: 24px 20px;
-        font-size: 24px;
-    }
-
-    .handThrufon {
-
-        margin: 0;
-        margin-top: 136px;
-    }
-
-    .handThrufon img {
-        width: 660px;
-    }
-
-    .headache {
-        margin-top: 194px;
-        margin-right: -279px;
-    }
-
-    .headache h5, .headachePara2 {
-        font-size: 30px;
-    }
-
-    .headachePara1 {
-        font-size: 58px;
-    }
-
-    .workPara {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .workCard, #workCard1, #workCard3 {
-        margin-left: auto;
-        margin-right: auto;
-        width: 905px;
-        height: 800px;
-    }
-
-    .workbtn {
-        width: 300px;
-        height: 300px;
-        font-size: 100px;
-        padding: 74px;
-        margin-bottom: 22px;
-    }
-
-    .workCard-title {
-        font-size: 44px;
-    }
-
-    .designation, .workCard-text {
-        font-size: 38px;
-    }
-
-    .work h5 {
-        margin: 0;
-        margin-top: 136px;
-        text-align: center;
-    }
-
-    .usBtn {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 400px;
-        height: 80px;
-    }
-
-    footer {
-        width: 2000px;
-        height: 500px;
-    }
-
-    footer a {
-        font-size: 36px;
-    }
-
-    .socials a {
-        font-size: 25px;
-    }
-
-    #footerlogo {
-        width: 260px;
-    }
-
-    .footerPara1 {
-        font-size: 25px;
-    }
-
-    .finalPara {
-        font-size: 20px;
-    }
-
+.servicecard-body h5 {
+    font-size: 24em;
 }
 
-/* - */
+.servicecard-text {
+    font-size: 18em;
+}
+
+.content h4 {
+    margin-top: 48px;
+    font-size: 15em;
+}
+
+.skills {
+    font-size: 10em;
+}
+
+.servicecard-body .btn {
+    margin-top: 40px;
+    margin-bottom: 66px;
+    padding: 16px 20px;
+    width: 234px;
+    height: 62px;
+    font-size: 9em;
+}
+
+/* Hand through phone */
+
+.handThruph {
+    margin-top: 194px;
+    display: flex;
+    font-size: 2px;
+}
+
+.handThruph .row {
+    flex-wrap: nowrap;
+}
+
+.headAche {
+    margin-left: 40em;
+    color: #fcfcfd;
+}
+
+.headAche h5, .ache2 {
+    font-size: 11em;
+    color: #fcfcfd;
+}
+
+.ache1 {
+    font-size: 19em;
+    color: #fcfcfd;
+}
+
+/* Section4 */
+
+.section4 {
+    font-size: 2px;
+    margin-top: 80px;
+}
+
+.section4 h5 {
+    font-size: 24em;
+    color: #fcfcfd;
+    text-align: center;
+}
+
+.section4 h6 {
+    font-size: 12em;
+    color: #fcfcfd;
+    text-align: center;
+}
+
+.section4 .row {
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+.blackCard {
+    background: #24292E;
+    box-shadow: 2px 2px 16px #FCFCFD;
+    backdrop-filter: blur(61px);
+    border-radius: 15px;
+    height: auto;
+    width: 30vw;
+}
+
+.blackCard .btn {
+    width: 80px;
+    height: 80px;
+    font-size: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+}
+
+.blackCard-body {
+    margin-top: 6em;
+    margin-bottom: 18em;
+}
+
+.blackCard-body h5 {
+    font-size: 12em;
+    text-align: center;
+}
+
+.designation, .blackCard-text {
+    font-size: 9em;
+    color: #fcfcfd;
+    text-align: center;
+}
+
+/* Last Section */
+.lastSection {
+    font-size: 2px;
+    margin-top: 150px;
+}
+
+.lastSection h5 {
+    font-size: 24em;
+    color: #fcfcfd;
+    text-align: center;
+}
+
+.lastSection h6 {
+    font-size: 12em;
+    color: #fcfcfd;
+    text-align: center;
+}
+
+.lastSection .btn {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 24px;
+    display: block;
+    width: 285px;
+    height: 64px;
+    box-shadow: 4px 2px 32px rgba(255, 144, 61, 0.75);
+    backdrop-filter: blur(61px);
+    border-radius: 15px;
+    font-size: 12em;
+    padding: 16px;
+}
+
+/* Footer */
+footer {
+    background: #24292E;
+    font-size: 2px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 14em 0em;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fcfcfd;
+}
+
+.my-5 {
+    margin-bottom: 0px !important;
+    margin-top: 183px !important;
+}
+
+.socials {
+    margin: 20px 0px;
+    font-size: 15em;
+}
+
+.socials a {
+    color: #fcfcfd;
+    margin: 0px 25px;
+}
+
+.fLogo {
+    margin-bottom: 19em;
+}
+
+.fLogo img {
+    margin-bottom: 4em;
+}
+
+.fLogo h6 {
+    font-size: 7em;
+}
+
+.copyRight {
+    font-size: 8em;
+}
