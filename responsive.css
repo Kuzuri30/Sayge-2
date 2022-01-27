@@ -2,7 +2,7 @@
 
     /* Navbar */
     .logo img {
-        width: 100%;
+        width: 30%;
     }
 
     .navbar-dark .navbar-nav .nav-link {
@@ -48,7 +48,6 @@
 
     /* Section3 */
     .servicecard-body {
-        /* margin-left: auto; */
         margin-right: auto;
     }
 
@@ -58,7 +57,8 @@
     }
 
     .servicecardImg img {
-        width: 110%;
+        width: 80%;
+        margin-top: 22%;
     }
 
     .servicecard-body h5 {
@@ -130,14 +130,11 @@
     }
 
     /* Footer */
-    .links a {
-        font-size: 28px;
-    }
     .socials {
         font-size: 22em;
     }
 
-    .fLogo h6, .copyRight {
+    .copyRight {
         font-size: 10em;
     }
 }
@@ -146,6 +143,11 @@
 
     body {
         padding: 48px 96px 0px 96px;
+    }
+
+    /* Navbar CSS */
+    .logo img {
+        width: 30%;
     }
 
     /* Section1 */
@@ -178,7 +180,7 @@
 
     .servicecardImg img {
         width: 80%;
-        margin-top: 10%;
+        margin-top: 50%;
         margin-left: 16%;
     }
 
@@ -218,9 +220,6 @@
     }
 
     /* Footer */
-    .links a {
-        font-size: 20px;
-    }
     .socials {
         font-size: 16em;
     }
@@ -235,7 +234,7 @@
     /* Navbar */
 
     .logo img {
-        width: 60%;
+        width: 30%;
     }
 
     .navbar-dark .navbar-nav .nav-link {
@@ -244,7 +243,7 @@
         font-size: 15px;
     }
 
-    .btn{
+    .btn {
         font-size: 13px;
     }
 
@@ -315,16 +314,15 @@
     }
 
     .servicecard-body {
-        margin-left: 12em;
-        margin-right: 18em;
+        padding: 0em 14em;
     }
 
     .servicecard-body h5 {
-        font-size: 15em;
+        font-size: 14em;
     }
 
     .servicecard-text {
-        font-size: 10em;
+        font-size: 9em;
     }
 
     .content h4 {
@@ -332,7 +330,7 @@
     }
 
     .skills {
-        font-size: 8em;
+        font-size: 7em;
     }
 
     .servicecard-body .btn {
@@ -399,13 +397,16 @@
     }
 
     @media (min-width:768px) and (max-width:991px) {
+
         /* Section1 */
         .paraInit h1 {
             font-size: 27em;
         }
+
         .initOne {
             font-size: 13em;
         }
+
         .initTwo {
             font-size: 11em;
         }
@@ -418,9 +419,11 @@
         .card-title {
             font-size: 18em;
         }
+
         .card-text {
             font-size: 12em;
         }
+
         .orcardPara1 {
             font-size: 12em;
         }
@@ -429,9 +432,36 @@
         .traction h1 {
             font-size: 18em;
         }
+
         .tractPara {
             font-size: 13em;
         }
+
+        /* Section3 */
+
+        .servicecard {
+            flex-direction: row;
+        }
+
+        .servicecard .row{
+            flex-wrap: nowrap;
+        }
+
+        .servicecard-body {
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+
+        .servicecardImg img {
+            margin-left: 0;
+            margin-top: 50%;
+            width: 115%;
+        }
+
+        .skills {
+            font-size: 7em;
+        }
+
         /* Section4 */
         .blackCard {
             width: 36vw;
@@ -464,14 +494,6 @@
     }
 
     /* Footer */
-
-    .links{
-        flex-wrap: wrap;
-    }
-    .links a{
-        font-size: 18px;
-    }
-
     .socials {
         font-size: 10em;
     }
@@ -479,10 +501,7 @@
     .socials a {
         margin: 0px 16px;
     }
-    
-    .fLogo h6 {
-        font-size: 6em;
-    }
+
     .copyRight {
         font-size: 6em;
     }
