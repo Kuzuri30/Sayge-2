@@ -10,7 +10,10 @@ body {
 /* Navbar CSS */
 
 .logo img {
-    width: 70%;
+    width: 30%;
+}
+.navbar-brand{
+    font-size: 28px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -20,7 +23,10 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #fcfcfd;
+	background-color: #FE6D01;
+    color: black;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 .navbar-nav {
@@ -67,7 +73,7 @@ body {
     color: #fcfcfd;
 }
 
-.paraInit button {
+.paraInit .btn {
     box-shadow: 4px 2px 32px rgba(255, 144, 61, 0.75);
     backdrop-filter: blur(61px);
     padding: 20px;
@@ -166,7 +172,6 @@ body {
 }
 
 .servicecard {
-    display: flex;
     margin-top: 32em;
     background: #F2EDE8;
     box-shadow: 4px 2px 32px #F2EDE8;
@@ -176,7 +181,7 @@ body {
 
 .servicecardImg img {
     width: 85%;
-    margin-top: 50%;
+    margin-top: 40%;
 }
 
 .servicecard-body {
@@ -334,24 +339,13 @@ footer {
     border-radius: 15px 15px 0px 0px;
 }
 
-.links {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 14em 0em;
-}
-
-.links a {
-    text-decoration: none;
-    color: #fcfcfd;
-}
-
 .my-5 {
     margin-bottom: 0px !important;
-    margin-top: 183px !important;
+    margin-top: 140px !important;
 }
 
 .socials {
-    margin: 20px 0px;
+    padding: 20px 0px;
     font-size: 15em;
 }
 
@@ -361,15 +355,14 @@ footer {
 }
 
 .fLogo {
-    margin-bottom: 19em;
+    margin-bottom: 8em;
+    padding: 5em 0em;
 }
 
-.fLogo img {
-    margin-bottom: 4em;
-}
-
-.fLogo h6 {
-    font-size: 7em;
+.fLogo a{
+    text-decoration: none;
+    color: #fcfcfd;
+    font-size: 14em ;
 }
 
 .copyRight {
