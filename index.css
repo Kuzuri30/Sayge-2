@@ -13,7 +13,7 @@ body {
     width: 30%;
 }
 .navbar-brand{
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .navbar-dark .navbar-toggler-icon{
@@ -183,7 +183,7 @@ body {
 
 .servicecard {
     margin-top: 32em;
-    background: #F2EDE8;
+    background: #f1f1f0;
     box-shadow: 4px 2px 32px #F2EDE8;
     backdrop-filter: blur(61px);
     border-radius: 15px;
