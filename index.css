@@ -16,6 +16,15 @@ body {
     font-size: 28px;
 }
 
+.navbar-dark .navbar-toggler-icon{
+    background-image: none;
+}
+
+#burger{
+    font-size: 29px;
+    color: #fcfcfd;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fcfcfd;
     margin-left: 46px;
@@ -330,7 +339,7 @@ body {
     backdrop-filter: blur(61px);
     border-radius: 15px;
     font-size: 12em;
-    padding: 16px;
+    padding: 13px;
 }
 
 /* Footer */
@@ -368,4 +377,22 @@ footer {
 
 .copyRight {
     font-size: 8em;
+}
+
+#floatingButton{
+    position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:30px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+	color:yellow;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.fa-moon, .fa-sun{
+    margin-top: 9px;
+    font-size: 22px;
 }
