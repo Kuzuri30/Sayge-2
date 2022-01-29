@@ -46,16 +46,31 @@ const makeThemelight = () => {
 		element.style.boxShadow = '2px 2px 16px black';
 	})
 	//Gradient Logo
-	Array.from(document.getElementsByClassName('gradient')).forEach((element) => {
-		element.style.background = 'linear-gradient(135deg, #6699FF 0%, #FF3366 100%)';
-		element.style.webkitTextFillColor = 'transparent';
-		element.style.webkitBackgroundClip = 'text';
+	Array.from(document.getElementsByClassName('whLogo')).forEach((element) => {
+		element.style.color= 'black';
+		
 	})
-	// Blackcard color change
+	// card color change
 	Array.from(document.getElementsByClassName('blackCard')).forEach((element) => {
-		element.style.background = '#F2EDE8';
+		element.style.background = '#f1f1f0';
 	})
-
+	Array.from(document.getElementsByClassName('card')).forEach((element) => {
+		element.style.background = '#f1f1f0';
+	})
+	// Shadow
+	Array.from(document.getElementsByClassName('btnShadow')).forEach((element)=>{
+		element.style.boxShadow = 'none';
+	})
+	// Gradients
+	makeGradient('grad1','linear-gradient(to right, #b92b27, #1565c0)');
+	makeGradientText('grad1');
+	makeGradient('card-title','linear-gradient(to right, #ff0084, #33001b)');
+	makeGradientText('card-title');
+	makeGradient('grad2','linear-gradient(135deg, #FFCC33 0%, #E233FF 100%)');
+	makeGradientText('grad2');
+	makeGradient('btn','linear-gradient(135deg, #6699FF 0%, #FF3366 100%)');
+	makeGradient('orangeSpan','linear-gradient(135deg,#D6FF7F 0%, #00B3CC 100%)');
+	makeGradientText('orangeSpan');
 }
 
 // Makes theme dark
@@ -81,14 +96,44 @@ const makeThemedark = () => {
 		element.style.boxShadow = '2px 2px 16px #F2EDE8';
 
 	})
-	// Normal Logo
-	Array.from(document.getElementsByClassName('gradient')).forEach((element) => {
-		element.style.background = '#fcfcfd';
-		element.style.webkitTextFillColor = 'transparent';
-		element.style.webkitBackgroundClip = 'text';
+	// White Logo
+	Array.from(document.getElementsByClassName('whLogo')).forEach((element) => {
+		element.style.color = '#fcfcfd';
 	})
 	// Blackcard color change
 	Array.from(document.getElementsByClassName('blackCard')).forEach((element) => {
 		element.style.background = '#24292E';
+	})
+
+	Array.from(document.getElementsByClassName('btn')).forEach((element)=>{
+		element.style.background = '#FE6D01';
+	})
+
+	Array.from(document.getElementsByClassName('btnShadow')).forEach((element)=>{
+		element.style.boxShadow = '4px 2px 32px rgba(255, 144, 61, 0.75)';
+	})
+	makeGradient('orangeSpan','#FE6D01');
+	makeGradientText('orangeSpan');
+	makeGradient('grad1','#fcfcfd');
+	makeGradientText('grad1');
+	makeGradient('grad2','#fcfcfd');
+	makeGradientText('grad2');
+	makeGradient('card-title','#fcfcfd');
+	makeGradientText('card-title');
+	Array.from(document.getElementsByClassName('card')).forEach((element) => {
+		element.style.background = '#FFAF73';
+	})
+}
+
+function makeGradient(className, color){
+	Array.from(document.getElementsByClassName(className)).forEach((element)=>{
+		element.style.background = color;
+	})
+}
+
+function makeGradientText(className){
+	Array.from(document.getElementsByClassName(className)).forEach((element)=>{
+		element.style.webkitTextFillColor = 'transparent';
+		element.style.webkitBackgroundClip = 'text';
 	})
 }
