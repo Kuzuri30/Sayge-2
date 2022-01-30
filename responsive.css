@@ -265,6 +265,9 @@
     .paraInit h1 {
         font-size: 21em;
     }
+    .paraInit .btn {
+        font-size: 8em;
+    }
 
     .initOne {
         font-size: 9em;
@@ -418,10 +421,6 @@
         }
 
         .initTwo {
-            font-size: 11em;
-        }
-
-        #clickTocall{
             font-size: 11em;
         }
 
