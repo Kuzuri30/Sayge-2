@@ -212,7 +212,7 @@ body {
     margin-top: 32em;
     background: #f1f1f0;
     box-shadow: 2px 2px 16px black;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .servicecardImg img {
@@ -294,7 +294,7 @@ body {
 .blackCard {
     background: #f1f1f0;
     box-shadow: 2px 2px 16px black;
-    border-radius: 15px;
+    border-radius: 5px;
     height: auto;
     width: 30vw;
 }
