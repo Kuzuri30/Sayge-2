@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 body {
-    background-color: black;
+    background-color: white;
     font-family: 'Inter', sans-serif;
     padding: 48px 96px 0px 96px;
     scroll-behavior: smooth;
@@ -9,6 +9,13 @@ body {
 
 /* Navbar CSS */
 
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: black;
+}
 .logo img {
     width: 30%;
 }
@@ -22,21 +29,29 @@ body {
 
 #burger{
     font-size: 29px;
-    color: #fcfcfd;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #fcfcfd;
+    color: black;
     margin-left: 46px;
     font-size: 20px;
-    transition: transform  0.5s;
+}
+
+#contact{
+    background: linear-gradient(to right, #ff0099, #493240);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+#contact:hover{
+    background: black;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-	background-color: #FE6D01;
     color: black;
-    border-radius: 15px;
-    transform: scale(1.1);
 }
 
 .navbar-nav {
@@ -50,7 +65,7 @@ body {
 
 .btn {
     color: #fcfcfd;
-    background: #FE6D01;
+    background: linear-gradient(135deg, #6699FF 0%, #FF3366 100%);
     border-radius: 15px;
 }
 
@@ -69,26 +84,34 @@ body {
 }
 
 .paraInit h1 {
-    color: #fcfcfd;
     font-size: 36em;
 }
 
+.grad1{
+   background: linear-gradient(to right, #b92b27, #1565c0);
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   -webkit-background-clip: text;
+}
+.grad2{
+    background:linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+ }
+
 .initOne {
     font-size: 15em;
-    color: #ffffff;
 }
 
 .initTwo {
     font-size: 10em;
-    color: #fcfcfd;
 }
 
 .paraInit .btn {
-    box-shadow: 4px 2px 32px rgba(255, 144, 61, 0.75);
-    backdrop-filter: blur(61px);
     padding: 20px;
     margin-top: 16px;
-    font-size: 12em;
+    font-size: 11em;
 }
 
 /* Section2 */
@@ -103,7 +126,8 @@ body {
 }
 
 .section2 .card {
-    background: #FFAF73;
+    background: #f1f1f0;
+    box-shadow: 2px 2px 5px black;
 }
 
 #orangeCard1 {
@@ -118,7 +142,10 @@ body {
 
 .card-title {
     font-size: 18em;
-    color: #fcfcfd;
+    background: linear-gradient(to right, #ff0084, #33001b);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .card-body {
@@ -128,7 +155,6 @@ body {
 
 .orcardPara1 {
     font-size: 10em;
-    color: #fcfcfd;
 }
 
 .card-text {
@@ -158,16 +184,17 @@ body {
 }
 
 .traction h1 {
-    color: #fcfcfd;
     font-size: 24em;
 }
 
 .orangeSpan {
-    color: #FE6D01
+    background:linear-gradient(135deg,#D6FF7F 0%, #00B3CC 100%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .tractPara {
-    color: #fcfcfd;
     font-size: 15em;
 }
 
@@ -184,8 +211,7 @@ body {
 .servicecard {
     margin-top: 32em;
     background: #f1f1f0;
-    box-shadow: 4px 2px 32px #F2EDE8;
-    backdrop-filter: blur(61px);
+    box-shadow: 2px 2px 16px black;
     border-radius: 15px;
 }
 
@@ -238,17 +264,14 @@ body {
 
 .headAche {
     margin-left: 40em;
-    color: #fcfcfd;
 }
 
 .headAche h5, .ache2 {
     font-size: 11em;
-    color: #fcfcfd;
 }
 
 .ache1 {
     font-size: 19em;
-    color: #fcfcfd;
 }
 
 /* Section4 */
@@ -260,13 +283,6 @@ body {
 
 .section4 h5 {
     font-size: 24em;
-    color: #fcfcfd;
-    text-align: center;
-}
-
-.section4 h6 {
-    font-size: 12em;
-    color: #fcfcfd;
     text-align: center;
 }
 
@@ -276,9 +292,8 @@ body {
 }
 
 .blackCard {
-    background: #24292E;
-    box-shadow: 2px 2px 16px #FCFCFD;
-    backdrop-filter: blur(61px);
+    background: #f1f1f0;
+    box-shadow: 2px 2px 16px black;
     border-radius: 15px;
     height: auto;
     width: 30vw;
@@ -304,9 +319,8 @@ body {
     text-align: center;
 }
 
-.designation, .blackCard-text {
+ .blackCard-text {
     font-size: 9em;
-    color: #fcfcfd;
     text-align: center;
 }
 
@@ -318,13 +332,11 @@ body {
 
 .lastSection h5 {
     font-size: 24em;
-    color: #fcfcfd;
     text-align: center;
 }
 
 .lastSection h6 {
     font-size: 12em;
-    color: #fcfcfd;
     text-align: center;
 }
 
@@ -335,8 +347,6 @@ body {
     display: block;
     width: 285px;
     height: 64px;
-    box-shadow: 4px 2px 32px rgba(255, 144, 61, 0.75);
-    backdrop-filter: blur(61px);
     border-radius: 15px;
     font-size: 12em;
     padding: 13px;
@@ -344,7 +354,7 @@ body {
 
 /* Footer */
 footer {
-    background: #24292E;
+    background: #F2EDE8;
     font-size: 2px;
     border-radius: 15px 15px 0px 0px;
 }
@@ -360,7 +370,7 @@ footer {
 }
 
 .socials a {
-    color: #fcfcfd;
+    color: black;
     margin: 0px 25px;
 }
 
@@ -371,22 +381,28 @@ footer {
 
 .fLogo a{
     text-decoration: none;
-    color: #fcfcfd;
+    color: black;
     font-size: 14em ;
+}
+
+footer hr{
+    color: black;
 }
 
 .copyRight {
     font-size: 8em;
+    color: black;
 }
 
 #floatingButton{
+    display: none;
     position:fixed;
 	width:40px;
 	height:40px;
 	bottom:40px;
 	right:30px;
-    background: linear-gradient(to right, #f12711, #f5af19);
-	color:yellow;
+    background: linear-gradient(to right, #000000, #434343);
+	color:#fcfcfd;
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
